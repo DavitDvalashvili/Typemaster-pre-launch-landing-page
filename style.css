@@ -40,7 +40,7 @@ footer p, .intro p, .intro span, .text-container p, .card p {
 .card h3, .intro h1, header .gray-box, .intro span, .intro  button, .text-container h2 {
     text-transform: uppercase;
 }
-.intro p, .intro  button, .intro span, .text-container p, .intro  button, .card p, footer p {
+.intro p, .intro  button, .intro span, .text-container p, .card p, footer p {
     font-size: 1.6rem;
     line-height: 2.6rem;
 }
