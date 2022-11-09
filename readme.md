@@ -17,7 +17,7 @@ This is a solution to the [Typemaster-pre-launch-landing-page]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://davitdvalashvili.github.io/Typemaster-pre-launch-landing-page/)
+- Solution URL: [Add solution URL here](https://github.com/DavitDvalashvili/Typemaster-pre-launch-landing-page)
 - Live Site URL: [Add live site URL here](https://davitdvalashvili.github.io/Typemaster-pre-launch-landing-page/)
 
 ## My process
