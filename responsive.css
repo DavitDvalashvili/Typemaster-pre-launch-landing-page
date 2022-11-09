@@ -1,0 +1,192 @@
+
+@media only screen and (min-width: 768px) {
+    /* styling of header and it's elements*/
+    header .logo {
+        margin: 4.9rem 0 0 3.9rem;
+    }
+    header .gray-box {
+        margin: 4rem 4rem 0 0 ;
+        padding: 1.6rem 2.7rem;
+    }
+    /* styling of intro and it's elements */
+    .intro {
+        margin: 6.2rem 0 2.4rem 0;
+        justify-content: space-between;
+    }
+    .intro-text {
+        max-width: 37.8rem;
+    }
+    .intro-image-container {
+        margin: 0;
+        width: 32.1rem;
+        height: 42.5rem;
+        background-image: url(assets/tablet/image-keyboard.jpg);
+    }
+    .intro p {
+        margin-left: 3.9rem;
+    }
+    .intro h1, .intro button {
+        margin: 6rem 0 3.4rem 3.9rem
+    }
+    .intro button {
+        margin-top: 0.7rem;
+    }
+    .intro span {
+        margin-top: 1.8rem;
+    }
+    /* styling of grid container */
+    .grid-container {
+        max-width: 76.8rem;
+        margin: 3.9rem auto 0 auto;
+        grid-template-columns: 21.4rem 44.5rem;
+        grid-template-rows: 32rem 10.8rem;
+        grid-gap: 7.02rem 3.05rem;
+        justify-content: center;
+    }
+    .keyboard-phone-container {
+        background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
+        border-radius: 1.8rem;
+    }
+    .keyboard-glass-container {
+        background-image: url(assets/tablet/image-glass-and-keyboard.jpg);
+    }
+    .text-container {
+        display: flex;
+        align-items: center;
+    }
+    .text-container h2 {
+        margin-left: 0;
+    }
+    .text-container p {
+        margin-left: 4.65rem;
+    }
+    /* styling of flex container */
+    .flex-container {
+        margin: 14.2rem auto 7rem auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 84rem;
+    }
+    .card {
+        margin: 0 0 7.2rem 0;
+    }
+    .card, .text-container p, .text-container h2 {
+        text-align: left;
+    }  
+    
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+    /* styling of header and it's elements*/
+    header .logo {
+        margin: 6.4rem 0 0 16.5rem;
+    }
+    header .gray-box {
+        margin: 4.5rem 16.5rem 0 0 ;
+    }
+     /* styling of intro and it's elements */
+    .intro {
+        margin: 8.3rem auto 3rem auto;
+        max-width: 144rem;
+    }
+    .intro-image-container {
+        margin-right: 16.5rem;
+        width: 54rem;
+        height: 48rem;
+        background-image: url(assets/desktop/image-keyboard.jpg);
+        border-radius: 1.8rem;
+    }
+    .intro-text {
+        max-width: 44.5rem;
+        margin-left: 16.9rem;
+    }
+    .intro h1, .intro button, .intro p, .intro button {
+        margin-left: unset;
+    } 
+    .intro button {
+        margin-top: 4rem;
+    }
+    .intro span {
+        margin-top: 5.1rem;
+    }
+    .intro p {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+    /* styling of grid container */
+    .grid-container {
+        max-width: 144rem;
+        margin: 0 auto;
+        grid-template-columns: 25.5rem 44.5rem 34.95rem;
+        grid-template-rows: 48rem 0;
+        column-gap: 3.5rem;
+        row-gap: 0;
+    }
+    .keyboard-phone-container {
+        background-image: url(assets/desktop/image-phone-and-keyboard.jpg);
+    }
+    .keyboard-glass-container {
+        background-image: url(assets/desktop/image-glass-and-keyboard.jpg);
+    }
+    .text-container {
+        display: block;
+        max-width: 25.5rem;
+        grid-column: 3 /span 1;
+    }
+    .text-container h2 {
+        margin: 11.2rem 0 2.7rem 9.45rem;
+        width: 100%;
+    }
+    .text-container p {
+        margin: 0 0 0 9.45rem;
+        width: 100%;
+    }
+    /* styling of grid container */
+    .flex-container {
+        margin: 19.133rem auto 12.8rem auto;
+        max-width: 144rem;
+        justify-content: space-around;
+        padding-left: 16.9rem;
+    }
+    .card {
+        width: 25.5rem;
+    }
+    .background-gray-box-1 {
+        width: 12.75rem;
+        height: 25.5rem;
+        position: absolute;
+        background-color: var(--gray);
+        top: 19.6rem;
+        right: 0rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+    /* background styling */
+    .background-box-gray div {
+        width: 12.75rem;
+        height: 25.5rem;
+        position: absolute;
+        background-color: var(--gray);
+    }
+    .background-box-gray div:nth-of-type(1) {
+        top: 19.6rem;
+        right: 0rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+    .background-box-gray div:nth-of-type(2) {
+        top: 95rem;
+        left: 0;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    } 
+
+}
+
+
+
+
+
+

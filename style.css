@@ -1,0 +1,187 @@
+:root {
+    --orange: #F16718;
+    --orange-light: #FF9B62;
+    --white: #FFFFFF;
+    --gray: #E8EFF2;
+    --dark-gray: #7B8BAD;
+    --blue: #162542;
+    --bold: 700;
+    --bolder: 900;
+    --light: 500;
+}
+
+/* general styling */
+html {
+    font-size: 62.5%;
+    font-style: normal;
+    font-family: 'Barlow';
+}
+header .gray-box, .intro  button,  .intro span, footer p span {
+    font-weight: var(--bold);
+}
+.intro h1, .text-container h2, .card h3 {
+    font-weight: var(--bolder);
+}
+.intro p, .text-container p, .card p, footer p {
+    font-weight: var(--light);
+}
+header .gray-box, .intro h1, .text-container h2, .card h3  {
+    color: var(--blue);
+}
+footer p, .intro p, .intro span, .text-container p, .card p {
+    color: var(--dark-gray);
+} 
+.card, .flex-container, .text-container p, .text-container h2 {
+    align-items: center;
+}
+.intro  button, .keyboard-phone-container, .card img {
+    background-color: var(--orange);
+}
+.card h3, .intro h1, header .gray-box, .intro span, .intro  button, .text-container h2 {
+    text-transform: uppercase;
+}
+.intro p, .intro  button, .intro span, .text-container p, .intro  button, .card p, footer p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+/* styling of header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+}
+header .logo {
+    margin: 2.7rem 0 0 2.4rem;
+}
+header .gray-box {
+    background-color: var(--gray);
+    margin: 2.3rem 2.45rem 0 0 ;
+    border-radius: 0.8rem;
+    padding: 1.1rem 1.35rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+header .gray-box:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+/* styling of introduction section and it's elements */
+.intro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 6.4rem auto 2.4rem auto;
+}
+.intro-text {
+    max-width: 42.5rem;
+}
+.intro h1 {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    margin-left: 2.4rem;
+}
+.intro p {
+    margin: 3.2rem 2.4rem;
+}
+.intro  button {
+    margin-left: 2.4rem;
+    padding: 1.1rem 1.4rem;
+    width: 17rem;
+    border-radius: 8px;
+    color: var(--white);
+    float: left;
+}
+.intro button:hover {
+    background-color: var(--orange-light);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.intro span {
+    float: right;
+    margin: 1.1rem 1.8rem 1.1rem 0;
+}
+.intro-image-container {
+    margin: 6.4rem 0 0 2.4rem;
+    border-top-left-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem;
+    width: 35.1rem;
+    height: 31.2rem;
+    background-image: url(assets/mobile/image-keyboard.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+} 
+/* styling of grid container */
+.grid-container {
+    margin: 0 auto;
+    max-width: 42.5rem;
+    display: grid;
+    grid-template-columns: 28.5% 58.6%;
+    grid-template-rows: 19.3rem 23.6rem;
+    grid-gap: 7.5rem 2.45rem;
+}
+.keyboard-phone-container {
+    background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-blend-mode:multiply;
+    opacity: 0.75;
+}
+.keyboard-glass-container {
+    background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    border-radius: 2rem;
+}
+.text-container {
+    grid-column: 1 / span 2;
+}
+.text-container h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-left: 2.4rem;
+}
+.text-container p {
+    margin: 2.4rem 0 4.7rem 2.4rem;
+}
+/* styling of flex container */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.card {
+    margin: 6.4rem 2.4rem 0 2.4rem;
+    max-width: 28.1rem;
+}
+
+.card img {
+    padding: 2.45rem 1.95rem 2.65rem 2rem;
+    border-radius: 2rem;
+}
+.card #bluetooth {
+    padding: 1.95rem 2.35rem 1.81rem 2.372rem;
+}
+.card #light {
+    padding: 2.267rem 2.367rem 2.299rem 2.266rem;
+}
+.card h3 {
+    margin: 4.8rem 0 2.4rem 0;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+/* styling of footer */
+footer p {
+    text-align: center;
+    margin: 9.6rem 0 5rem 0;
+}
+
+
+
