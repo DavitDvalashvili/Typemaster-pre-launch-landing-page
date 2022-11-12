@@ -34,7 +34,7 @@ footer p, .intro p, .intro span, .text-container p, .card p {
 .card, .flex-container, .text-container p, .text-container h2 {
     align-items: center;
 }
-.intro  button, .keyboard-phone-container, .card img {
+.intro  button, .keyboard-phone-container, .card .image-box {
     background-color: var(--orange);
 }
 .card h3, .intro h1, header .gray-box, .intro span, .intro  button, .text-container h2 {
@@ -161,16 +161,13 @@ header .gray-box:hover {
     margin: 6.4rem 2.4rem 0 2.4rem;
     max-width: 28.1rem;
 }
-
-.card img {
-    padding: 2.45rem 1.95rem 2.65rem 2rem;
+.card .image-box {
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 2rem;
-}
-.card #bluetooth {
-    padding: 1.95rem 2.35rem 1.81rem 2.372rem;
-}
-.card #light {
-    padding: 2.267rem 2.367rem 2.299rem 2.266rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card h3 {
     margin: 4.8rem 0 2.4rem 0;
