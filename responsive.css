@@ -80,6 +80,10 @@
 
 @media only screen and (min-width: 1440px) {
     /* styling of header and it's elements*/
+    header {
+        max-width: 155rem;
+        margin: 0 auto;
+    }
     header .logo {
         margin: 6.4rem 0 0 16.5rem;
     }
